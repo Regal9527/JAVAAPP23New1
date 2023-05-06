@@ -2,7 +2,7 @@ pipeline{
         agent any 
 
         stages{
-            stage(' Sonar quality status'){
+            stage(' Sonar quality check '){
                 agent{
 
                     docker {
